@@ -286,42 +286,6 @@ section
     text-align: center;
 }
 
-#Competences
-{
-    background-color: red;
-}
-
-#MesProjets
-{
-    background-color: green;
-}
-
-#Contact
-{
-    background-color: yellow;
-}
-
-footer
-{
-    background-color: blue;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* The actual timeline (the vertical ruler) */
 .timeline 
 {
@@ -465,10 +429,172 @@ footer
     }
 }
 
+#Competences
+{
+    background-color: red;
+    padding-top: 2%;
+    height: 107%;
+}
+
+#titreCompetences
+{
+    font-size: 440%;
+    text-align: center;
+}
+
+.slider1
+{
+    border: solid black 4px;
+    width: 48%;
+    border-radius: 20px;
+}
+
+.slider2
+{
+    border: solid black 4px;
+    width: 167%;
+    border-radius: 20px;
+}
+
+
+#divcompetences
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 9%;
+}
+
+#htmlcss
+{
+    border: solid blue 4px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#javascript{
+    border: solid yellow 4px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+#php{
+    border: solid magenta 4px;
+    width: 70%;
+    border-radius: 20px;
+}
+
+#sql{
+    border: solid green 4px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#ccplusplus{
+    border: solid blueviolet 4px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+#python{
+    border: solid orange 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#csharp{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#uml{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#merise{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#rgpd{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#scrum{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#github{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#gitlab{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#docker{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#wamp{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#workbench{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#pycharm{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#vstudio{
+    border: solid aqua 4px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+#vscode{
+    border: solid aqua 4px;
+    width: 10%;
+    border-radius: 20px;
+}
+
+#MesProjets
+{
+    background-color: green;
+}
+
+#Contact
+{
+    background-color: yellow;
+}
+
 footer
 {
     padding-top: 1%;
     height: 15%;
+    background-color: blue;
 }
 
 #testFooter
